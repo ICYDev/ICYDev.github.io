@@ -51,7 +51,7 @@ const createTile = index => {
     tile.classList.add("tile");
 
     tile.style.opacity = gridVisable ? 1 : 0;
-    tile.style.backgroundColor = '#12' + (Math.floor(index%11)+16).toString(16) + '3B';
+    tile.style.backgroundColor = '#12' + Math.floor(index%(Math.floor(document.body.clientWidth / 50)/3.8)*2.5+16).toString(16) + '3B';
 
     /*tile.onclick = e => togglePreloadVisable(index);*/
 
