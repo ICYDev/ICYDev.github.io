@@ -99,7 +99,7 @@ const cycleText = () => {
 setInterval(cycleText, 1250);
 
 window.onload = () => {
-    togglePreloadVisable(false);
+    //togglePreloadVisable(false);
 }
 
-setInterval(togglePreloadVisable,5000)
+//setInterval(togglePreloadVisable,5000)
